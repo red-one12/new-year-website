@@ -314,3 +314,109 @@ header h1{
     margin-left: 50px;
     margin-bottom: 250px;
 }
+
+
+
+.awesome-portfolio{
+    height: 900px;
+    margin: 120px 135px;
+}
+.awesome-portfolio .text-div{
+    height: 15%;
+    margin-bottom: 60px;
+}
+.awesome-portfolio .text-div .best-gift{
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.awesome-portfolio .text-div h1{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.awesome-portfolio .text-div p{
+    width: 800px;
+    font-size: 20px;
+    font-weight: 300;
+    color: hsla(260, 79%, 4%, 0.60);
+}
+.awesome-portfolio .product-div{
+    height: 85%;
+    /* background-color: lightcoral; */
+}
+.awesome-portfolio .product-div .cards-div1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+
+
+
+.subscribe-newsletter{
+    height: 600px;
+    background-color: hsla(0, 100%, 50%, 0.050);
+    margin: 150px 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 180px;
+    text-align: center;
+}
+.subscribe-newsletter h1{
+    font-size: 48px;
+}
+.subscribe-newsletter p{
+    font-size: 20px;
+    font-weight: 300;
+    color: hsla(260, 79%, 4%, 0.60);
+}
+.subscribe-newsletter input{
+    width: 370px;
+    font-size: 18px;
+    padding: 20px 20px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: none;
+}
+.subscribe-newsletter button{
+    padding: 20px 20px;
+    background-color: #FF0000;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: none;
+    width: 180px;
+    font-size: 18px;
+    color: white;
+    margin-left: -5px;
+}
+
+
+footer{
+    background-color: #070211;
+    height: 400px;
+    width: 100%;
+    color: white;
+    padding: 100px 135px;
+    font-size: 16px;
+
+}
+footer .text-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .icon-div{
+    text-align: center;
+    padding: 35px 0px;
+    border-top: 1px solid rgba(255, 255, 255, 0.171);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.171);
+    margin: 30px 0px;
+}
+footer .last-text-div{
+    display: flex;
+    justify-content: space-between;
+}
