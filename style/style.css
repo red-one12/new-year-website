@@ -241,3 +241,76 @@ header h1{
     color: hsla(260, 79%, 4%, 0.60);
     margin: 25px;
 }
+
+
+
+
+.holiday-section{
+    margin: 120px 135px;
+    height: 980px;
+    /* background-color: lightblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.holiday-section .text-div{
+    height: 50%;
+    width: 63%;
+    /* background-color: lightcoral; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.holiday-section .text-div h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+.holiday-section .text-div h1{
+    font-size: 72px;
+}
+.holiday-section .text-div h1 span{
+    color: #FF0000;
+}
+.holiday-section .text-div p{
+    font-size: 20px;
+    color: hsla(260, 79%, 4%, 0.60);
+}
+
+
+.holiday-section .reword-div{
+    height: 50%;
+    width: 100%;
+    /* background-color: lightgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.holiday-section .reword-div .offer-logo-div{
+    height: 50%;
+    width: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.holiday-section .reword-div .offer-box-div{
+    height: 50%;
+    width: 100%;
+    /* background-color: rgb(255, 230, 0); */
+    background-image: url(/images/Rectangle\ 2.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 1080px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.holiday-section .reword-div .offer-box-div img{
+    margin-left: 50px;
+    margin-bottom: 250px;
+}
